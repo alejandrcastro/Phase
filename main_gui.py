@@ -25,7 +25,7 @@ from PIL import Image, ImageTk
 import collections
 import ctypes
 import ConfigParser
-from numba import autojit
+from numba import jit
 
 
 
@@ -695,7 +695,7 @@ class zernike_modes:
                                             'Z8': self.Z8,
                                             'Z11': self.Z11})
 
-@autojit
+@jit
 def wrap2value(array, lower_value, upper_value):
     """
     Wraps the phase around 2pi such that multiples of 2pi greater than 2pi will equal 2pi and multiples of

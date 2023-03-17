@@ -1,0 +1,28 @@
+name: phase_test
+channels:
+  - numba
+  - defaults
+dependencies:
+  - ca-certificates=2023.01.10=hecd8cb5_0
+  - certifi=2020.6.20=pyhd3eb1b0_3
+  - enum34=1.1.6=py27_1
+  - libcxx=14.0.6=h9765a3e_0
+  - libffi=3.4.2=hecd8cb5_6
+  - llvmlite=0.31.0=py27_0
+  - ncurses=6.4=hcec6c5f_0
+  - pip=19.3.1=py27_0
+  - python=2.7.18=h441ce09_3
+  - readline=8.2=hca72f7f_0
+  - setuptools=44.0.0=py27_0
+  - sqlite=3.41.1=h6c40b1e_0
+  - tk=8.6.12=h5d9f67b_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - zlib=1.2.13=h4dc903c_0
+  - pip:
+    - funcsigs==1.0.2
+    - numba==0.47.0
+    - numpy==1.16.6
+    - pillow==6.2.2
+    - singledispatch==3.7.0
+    - six==1.16.0
+prefix: /Users/alejandrocastro/opt/anaconda3/envs/phase_test
