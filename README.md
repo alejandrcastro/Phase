@@ -11,7 +11,7 @@ A GUI for creating and displaying phase masks for a Liquid Crystal on Silicon (L
 ![Phase Screenshot](https://i.imgur.com/Zq2KUgC.png)
 
 ## Getting Started
-1. To start the GUI, download this repository and navigate a CMD Prompt to the "Phase" directory. The GUI can be started with the command "python main_gui.py" entered in the command prompt. (Note: you must have python installed in order for the software to run. I recommend using the [Anaconda Python Distribution](https://store.continuum.io/cshop/anaconda/).)
+1. To start the GUI, download this repository and navigate a CMD Prompt to the "Phase" directory. The GUI can be started with the command "python main_gui.py" entered in the command prompt. (Note: you must have python installed in order for the software to run. I recommend using the [Anaconda Python Distribution](https://store.continuum.io/cshop/anaconda/). You can create a conda environment from the .yml file.)
 2. Start by loading a list of images (File-> Open Image List...) and use the dialog to select the image list file (see the examples folder for an idea on how to structure a list file). 
 3. The file names of all the images are listed in the list pane on the left. Selecting one will automatically load that image and display it in the pane on the very right.
 4. The right pane displays two masks, the Base Mask is a copy of the image file currently selected in the left list box, while the Modified Mask shows your Base Mask with any Zernike functions added to it.
